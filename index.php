@@ -7,6 +7,8 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -67,9 +69,23 @@
         <div class="contenedor">
             <div class="contenido-header">
                 <div class="portada">
-                    <!-- <img src="images/portada.jpg" alt=""> -->
-                    <button><i class="fas fa-chevron-circle-left"></i></button>
-                    <button><i class="fas fa-chevron-circle-right"></i></button>
+                    <div class="slider-contenedor">
+                        <div class="contenido-slider">
+                            <img src="images/dua1.jpg" alt="">
+                        </div>
+                        <div class="contenido-slider">
+                            <img src="images/dua2.jpg" alt="">
+                        </div>
+                        <div class="contenido-slider">
+                            <img src="images/dua3.jpg" alt="">
+                        </div>
+                        <div class="contenido-slider">
+                            <img src="images/dua1.jpg" alt="">
+                        </div>
+                        <!-- <img src="images/portada.jpg" alt=""> -->
+                        <!-- <button><i class="fas fa-chevron-circle-left"></i></button>
+                    <button><i class="fas fa-chevron-circle-right"></i></button> -->
+                    </div>
                 </div>
                 <div class="info-portada">
                     <h2>Celebración de la Navidad 2019</h2>
@@ -93,27 +109,27 @@
                 <div class="insignias">
                     <div class="contenido-insignias">
                         <div class="insignia-item">
-                            <i class="fas fa-pen-fancy"></i>
+                            <i class="fas fa-trophy"></i>
                             <h4>EXCELENCIA</h4>
                         </div>
                         <div class="insignia-item">
-                            <i class="fas fa-pen-fancy"></i>
+                            <i class="fas fa-user-shield"></i>
                             <h4>INTEGRIDAD</h4>
                         </div>
                         <div class="insignia-item">
-                            <i class="fas fa-pen-fancy"></i>
+                            <i class="far fa-lightbulb"></i>
                             <h4>INNOVACION</h4>
                         </div>
                         <div class="insignia-item">
-                            <i class="fas fa-pen-fancy"></i>
+                            <i class="fas fa-plug"></i>
                             <h4>FLEXIBILIDAD</h4>
                         </div>
                         <div class="insignia-item">
-                            <i class="fas fa-pen-fancy"></i>
+                            <i class="fas fa-gem"></i>
                             <h4>EFICIENCIA</h4>
                         </div>
                         <div class="insignia-item">
-                            <i class="fas fa-pen-fancy"></i>
+                            <i class="fas fa-laptop"></i>
                             <h4>VOCACIÓN</h4>
                         </div>
                     </div>
@@ -151,23 +167,23 @@
                 <div class="agenda">
                     <h2 class="titulo">Agenda</h2>
                     <div class="actividades">
-                        <div class="actividad">
+                        <div class="actividad" data-aos="fade-left" data-aos-duration="1000">
                             <div class="fecha">14 <small>abril</small></div>
                             <p> Evento Deportivo</p>
                         </div>
-                        <div class="actividad">
+                        <div class="actividad" data-aos="fade-left" data-aos-duration="1300">
                             <div class="fecha">14 <small> abril</small></div>
                             <p> Evento Deportivo</p>
                         </div>
-                        <div class="actividad">
+                        <div class="actividad" data-aos="fade-left" data-aos-duration="1600">
                             <div class="fecha">14 <small> abril</small></div>
                             <p> Evento Deportivo</p>
                         </div>
-                        <div class="actividad">
+                        <div class="actividad" data-aos="fade-left" data-aos-duration="1900">
                             <div class="fecha">14 <small> abril</small></div>
                             <p> Evento Deportivo</p>
                         </div>
-                        <div class="actividad">
+                        <div class="actividad" data-aos="fade-left" data-aos-duration="2200">
                             <div class="fecha">14 <small> abril</small></div>
                             <p> Evento Deportivo</p>
                         </div>
@@ -194,17 +210,17 @@
 
             <div class="multimedias">
                 <div class="organizacion ">
-                    <div class="organizacion-item">
-                        <a href=""><i class="fas fa-address-book"></i><span> LINEAMIENTO ESTRATÉGICO</span></a>
+                    <div class="organizacion-item" data-aos="fade-right" data-aos-duration="800">
+                        <a href=""><i class="fas fa-chart-line"></i><span> LINEAMIENTO ESTRATÉGICO</span></a>
 
                     </div>
-                    <div class="organizacion-item">
-                        <a href=""><i class="fas fa-address-book"></i><span> CÓDIGO DE ÉTICA</span></a>
+                    <div class="organizacion-item" data-aos="fade-right" data-aos-duration="1000">
+                        <a href=""><i class="fas fa-balance-scale"></i><span> CÓDIGO DE ÉTICA</span></a>
 
 
                     </div>
-                    <div class="organizacion-item">
-                        <a href=""><i class="fas fa-address-book"></i><span> ORGANIGRAMA</span></a>
+                    <div class="organizacion-item" data-aos="fade-right" data-aos-duration="1200">
+                        <a href=""><i class="fas fa-sitemap"></i><span> ORGANIGRAMA</span></a>
 
                     </div>
                 </div>
@@ -230,7 +246,10 @@
     <footer>
 
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
     <script src="https://kit.fontawesome.com/b84a853aee.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
